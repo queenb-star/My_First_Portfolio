@@ -5,19 +5,40 @@
   <title>My Tweets</title>
 </head>
 <body>
-  <h1>Latest Tweets</h1>
 
-  <p>Here’s an embedded tweet from Twitter:</p>
+  <!-- HEADER: navigation menu -->
+  <header>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="tweets.html">Tweets</a></li>
+    </ul>
+  </header>
 
-  <!-- Example embedded tweet (you can replace this with any tweet you like) -->
-  <blockquote class="twitter-tweet">
-    <p lang="en" dir="ltr">
-      Just setting up my twttr
-    </p>&mdash; jack (@jack)
-    <a href="https://twitter.com/jack/status/20?ref_src=twsrc%5Etfw">March 21, 2006</a>
-  </blockquote>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <!-- MAIN CONTENT -->
+  <main>
+    <article>
+      <h1>Latest Tweets</h1>
+      <p>Here’s an embedded tweet from Twitter:</p>
 
-  <p><a href="index.html">← Back to Homepage</a></p>
+      <!-- Example embedded tweet -->
+      <blockquote class="twitter-tweet">
+        <p lang="en" dir="ltr">Just setting up my twttr</p>&mdash; jack (@jack)
+        <a href="https://twitter.com/jack/status/20?ref_src=twsrc%5Etfw">March 21, 2006</a>
+      </blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+      <!-- Optional back to homepage -->
+      <p><a href="index.html">← Back to Homepage</a></p>
+    </article>
+
+    <aside>
+      <p>placeholder to add comment thread later</p>
+    </aside>
+  </main>
+
+  <footer>
+    <p>Made by Benie - <a href="https://example.com" target="_blank">here</a></p>
+  </footer>
+
 </body>
 </html>
